@@ -1,3 +1,10 @@
-* {
-  color: rgb(160, 44, 160);
-}
+@import "./abstract/variables";
+
+@import "./base/animation";
+@import "./base/base";
+@import "./base/utilities";
+
+@import "./components/card";
+@import "./components/icon";
+
+@import "./pages/home";

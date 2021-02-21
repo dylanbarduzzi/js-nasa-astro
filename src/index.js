@@ -1,12 +1,13 @@
 import React from "react"
 import ReactDOM from "react-dom"
 
+import App from "./app"
 import "./styles/styles.scss"
 
-const App = () => (
+const RenderApp = () => (
   <React.StrictMode>
-    <div>Hello, app!</div>
+    <App />
   </React.StrictMode>
 )
 
-ReactDOM.render(<App />, document.getElementById("root"))
+ReactDOM.render(<RenderApp />, document.getElementById("root"))
