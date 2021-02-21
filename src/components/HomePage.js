@@ -28,8 +28,8 @@ const HomePage = () => {
 
   if (error) {
     return (
-      <div>
-        <h3>{error}</h3>
+      <div className="center-block">
+        <p className="error">{error}</p>
       </div>
     )
   }

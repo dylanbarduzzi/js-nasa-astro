@@ -1,0 +1,30 @@
+.notfound__card {
+  background-color: $color-white;
+  border: 1px solid $color-gray-light-2;
+  border-radius: $default-border-radius;
+  padding: 1.4rem 1.8rem;
+}
+
+.notfound__head {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.notfound__text {
+  margin-bottom: 1rem;
+}
+
+.notfound__btn {
+  display: block;
+  margin: 2.6rem 0 1rem;
+}
+
+.notfound__link {
+  background-color: $color-blue;
+  color: $color-white;
+  font-weight: 500;
+  padding: 1.4rem 1.8rem;
+  text-decoration: none;
+  border-radius: $default-border-radius;
+  cursor: pointer;
+}
